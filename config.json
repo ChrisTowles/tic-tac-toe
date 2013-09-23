@@ -1,0 +1,6 @@
+{
+	"enviornment" : "development",
+	"http" : {
+		"port": 5454
+	}
+}

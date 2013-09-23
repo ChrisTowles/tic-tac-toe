@@ -1,0 +1,58 @@
+/* app css stylesheet */
+
+html,body
+{
+height:100%;
+}
+
+#wrap
+{
+min-height: 100%; 
+}
+
+#main
+{
+margin: 20px;
+overflow:auto;
+padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+
+
+.pad15 {
+  padding: 15px;
+}
+
+.margin10tb {
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+.margin3tb {
+  margin-top: 3px;
+  margin-bottom: 3px; 
+}
+.margin10t {
+  margin-top: 10px;
+}
+.margin20tb {
+  margin-top: 20px;
+  margin-bottom: 20px; 
+}
+.gm-style img{
+  max-width: inherit;
+}
+.tttCell {
+	width: 120px;
+	height: 90px;
+	text-align: center;
+}
+.tttCell div {
+	height: 80px;
+	margin: 5px 3px;
+}
+.tttCell div i{
+	font-size: 80px;
+	padding-left: 15px;
+}
+.tttCell div div{
+	margin-top: 25px;
+}

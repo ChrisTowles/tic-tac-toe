@@ -1,0 +1,22 @@
+.row-fluid
+  .span7
+    h1 Tic Tac Toe
+  .span5
+    .alert.alert-info.pull-left(ng-show='displayMessage') {{message}}
+
+.row-fluid
+  .span5
+    .well
+      span.btn.btn-success.pull-right(ng-click='startGame()') Reset Game
+      h5 Game History
+      ol
+       li(ng-repeat='move in moves'){{move}}
+  .span7
+   .well
+    table(border="1")
+      tr(ng-repeat='row in rows')
+        td#cell-0-0.tttCell(ng-repeat='col in row track by $index') 
+         div.alert(ng-click='userPlay($event, $index, $parent.$index)', ng-class="col == 0 ? '' : (col == 1 ? 'alert-success' : 'alert-info')") 
+           i.icon-circle-blank(ng-show='col == 1')
+           i.icon-remove(ng-show='col == 2')
+           div(ng-show='col == 0') open
