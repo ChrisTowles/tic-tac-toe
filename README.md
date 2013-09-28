@@ -37,4 +37,5 @@
     views/
       index.jade        --> main page for app
       layout.jade       --> doctype, title, head boilerplate
-      partials/         --> angular view partials (partial jade templates)
+      partials/         --> angular view partials (folder for partial jade templates)
+        file1.jade
