@@ -39,3 +39,4 @@
       layout.jade       --> doctype, title, head boilerplate
       partials/         --> angular view partials (folder for partial jade templates)
         file1.jade
+        file2.jade        
